@@ -11,9 +11,17 @@
   "buffer_font_size": 13.5,
   "theme": {
     "mode": "system",
-    "light": "One Light",
+    "light": "Catppuccin Latte - No Italics",
     "dark": "One Dark"
   },
   "base_keymap": "Atom",
-  "vim_mode": true
+  "vim_mode": true,
+  "preferred_line_length": 65,
+  "wrap_guides": [62],
+  "soft_wrap": "editor_width",
+  "languages": {
+    "Lua": {
+      "tab_size": 2
+    }
+  }
 }
